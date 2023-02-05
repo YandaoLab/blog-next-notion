@@ -1,32 +1,28 @@
 module.exports = {
-  siteName: "Hyoban's Blog",
-  description: 'Hyoban 的个人博客，胡乱写些东西',
-  shortDescription: 'Student | Love react',
+  siteName: "Yandao | Notion Blog",
+  description: 'Yandao | Notion Blog',
+  shortDescription: 'Student | Chinese',
   fullDescription:
-    "My name is Stephen Zhou ( 周云亮 in Chinese ), Hyoban is my ID on the web. I'm studying at NCUT.",
-  avatarPath: '/hyoban.png',
+    "Hi! My name is Kris Yan, Yandao is my ID on the web. ",
+  avatarPath: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/1.jpeg',
   faviconPath: '/favicon.svg',
   links: [
     {
       type: 'GitHub',
-      url: 'https://github.com/hyoban',
-    },
-    {
-      type: 'Mastodon',
-      url: 'https://elk.zone/mas.to/@hyoban',
+      url: 'https://github.com/YanDao0313',
     },
   ],
   codeTheme: {
     light: 'github-light',
     dark: 'github-dark',
   },
-  siteUrl: 'https://blog.hyoban.cc',
-  authorName: 'Hyoban',
-  authorLink: 'https://blog.hyoban.cc',
-  authorEmail: 'hi@hyoban.cc',
+  siteUrl: 'https://nextnotionblog.vercel.app',
+  authorName: 'Yandao',
+  authorLink: 'https://daoblog.top',
+  authorEmail: 'hi@ydlk.cc',
   comment: {
     giscusConfig: {
-      repo: 'hyoban/blog-next-notion',
+      repo: 'YandaoLab/blog-next-notion',
       repositoryId: 'R_kgDOIxobTQ',
       category: 'Announcements',
       categoryId: 'DIC_kwDOIxobTc4CTwZ4',
@@ -35,7 +31,7 @@ module.exports = {
       metadata: '0',
       theme: 'light',
       inputPosition: 'bottom',
-      lang: 'en',
+      lang: 'zh',
       darkTheme: 'dark',
     },
   },
