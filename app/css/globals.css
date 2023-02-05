@@ -1,0 +1,29 @@
+@tailwind base;
+
+@layer base {
+  a {
+    @apply underline decoration-dashed decoration-1 underline-offset-4 hover:opacity-50;
+  }
+
+  ul {
+    @apply ml-5 list-outside list-disc;
+  }
+
+  ol {
+    @apply ml-5 list-outside list-decimal;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+html.dark {
+  color-scheme: dark;
+}
+
+@supports (scrollbar-gutter: stable) {
+  html {
+    scrollbar-gutter: stable both-edges;
+  }
+}

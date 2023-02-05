@@ -1,0 +1,45 @@
+{
+  "name": "blog-next-notion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:docker": "docker build -t nextjs-docker .",
+    "start:docker": "docker run --rm -p 3000:3000 nextjs-docker",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "feed": "^4.2.2",
+    "jotai": "^1.13.1",
+    "next": "13.1.6",
+    "probe-image-size": "^7.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-use": "^17.4.0",
+    "rss-parser": "^3.12.0",
+    "sharp": "^0.31.3",
+    "shiki": "^0.14.0"
+  },
+  "devDependencies": {
+    "@notionhq/client": "^2.2.3",
+    "@types/node": "18.11.18",
+    "@types/probe-image-size": "^7.2.0",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.5"
+  },
+  "engines": {
+    "node": ">=16.8.0"
+  }
+}
